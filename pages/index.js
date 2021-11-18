@@ -4,7 +4,7 @@ import NavBar from '../components/navbar'
 import Brand from './../components/branding'
 
 import Button from './../components/ui/button'
-function Home() {
+export default function Home() {
   return (
       <div>
 
@@ -16,8 +16,6 @@ function Home() {
       </div>
   )
 }
-
-export default Home
 
 // export default function Home() {
 //    console.log(firebase)
