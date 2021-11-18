@@ -3,16 +3,32 @@ import firebase from '../firebase'
 import NavBar from '../components/navbar'
 import Brand from './../components/branding'
 
-export default function Home() {
-   console.log(firebase)
+import Button from './../components/ui/button'
+function Home() {
   return (
-     <div>
-       <NavBar/>
-       <Brand title="Home Page" tagline="directory app start"/>
+      <div>
 
-     </div>
+          <Button bgcolor="tomato" color="white">sign up with firebase</Button>
+          <Button bgcolor="blue" color="white">sign up with something</Button>
+          <Button bgcolor="orange" color="white">sign up with something</Button>
+
+
+      </div>
+  )
+}
+
+export default Home
+
+// export default function Home() {
+//    console.log(firebase)
+//   return (
+//      <div>
+//        <NavBar/>
+//        <Brand title="Home Page" tagline="directory app start"/>
+
+//      </div>
      
        
     
-  )
-}
+//   )
+// }
